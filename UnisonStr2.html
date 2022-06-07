@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/styles2.css">	
+	<title>Reviews</title>
+<style>
+body { background: url(image/background.jpg) no-repeat;-moz-background-size: 100%;-webkit-background-size: 100%; -o-background-size: 100%; background-size: 100%;}
+</style>
+<style>.text1{height: 200px;width: 200px;font-size: 12pt;transform: translate(40.8em, -22.1em)}
+</style>
+<style>.b1 {background: #515f56; <!-- Цвет фона кнопки --> color: white; <!-- Цвет букв --> font-size: 9pt; <!-- Размер шрифта -->}
+</style>
+<style>
+.prim
+{									
+height: 300px;
+width: 300px;
+font-family: Times New Roman, Helvetica, sans-serif;
+font-size: 10pt;
+transform: translate(1em, -98.5em)
+}
+</style>
+<style>
+.N
+{														
+height: 300px;
+width: 300px;
+font-family: Times New Roman, Helvetica, sans-serif;
+font-size: 14pt;
+color: rgba(0, 0, 0, 0.5); 
+transform: translate(1.8em, -118.7em)
+	}
+</style>
+<style>
+.V
+{														
+height: 300px;
+width: 300px;
+font-family: Times New Roman, Helvetica, sans-serif;
+font-size: 14pt;
+color: rgba(0, 0, 0, 0.5); 
+transform: translate(99.3em, -135.8em)
+}
+</style>
+<style>
+ html { overflow:  hidden; }
+</style> 
+</head>
+<body style="font-family:Courier, monospace">
+ <p id='str6' style="color:#000000; font-size:60px; font-family:Times New Roman";>Сеть салонов красоты</p>
+
+ <hr size=60 color=#515f56>
+		<form action="UnisonMain.html">
+		<button id='str1' class="b1">
+		Главная</button> </form>
+			<form action="UnisonStr2.html">
+			<button id='str2' class="b1">
+			Каталог услуг</button> </form>
+				<form action="UnisonStr3.html">
+				<button id='str3' class="b1">
+			Примеры работ</button> </form>
+					<form action="UnisonStr4.html">
+					<button id='str4' class="b1">
+					Подробнее о нас</button> </form>
+	<img id='logoss' src="image/Logo.png"> 
+	<!-- <img id='otz' src="image/otz.jpg"> -->
+  <div>
+    <p id="pich" align="center"><img src="image/img3/p0.jpg" alt="Ногти" name="slideshow"></p>
+    <p id="about" class="text1" style="color:#000000 ; font-size:50px"></p>
+    <br />
+    <input id='main' type="button" value="Назад" onClick="showImage(-1)">
+    <input id='pule' type="button" value="Вперед" onClick="showImage(1)">
+   <!-- <form id='om' name="frm">
+    <textarea name="description" rows="6" cols="44" readonly></textarea>
+    </form> -->
+    </div>
+    <script type="text/javascript">
+        // массив текстов, поясняющих изображения
+        msg = new Array(
+        "  ",
+        "Анастасия",
+        "Светлана",
+        "Виктория",
+        "Елизавета",
+        "Екатерина",
+        "Милена",
+        "Мария",
+        "Наталья"
+        )
+        // массив текстов, поясняющих изображения
+        msg1 = new Array(
+        "   ",
+        "Очень понравилось обслуживание, сразу же предложили выпить кофе или чай на выбор, так же салон был в пешей доступности, что очень удобно!",
+        "На процедуре чувствовала себя как дома, все очень уютно, время пролетает незаметно, общительный мастер, который не даст заскучать!",
+        "Очень бережное отношение к клиенту, сейчас редко такое встретишь)",
+        "Отличный салон по приемлемым ценам!",
+        "Обожаю этот салон, всегда хожу только сюда, качество обслуживания просто на высоте! После вас совсем не хочется ходить к кому-то ещё!",
+        "Мастер всегда подскажет и поможет в выборе, начнёт делать работу только после того, как полностью убедиться в вашем комфорте, очень приятно такое отношение к клиентам, однозначно 5 звёзд!",
+        "Мастер просто огонь, всегда воплотит даже самую безумную идею, работает с интузиазмом, от чего уходишь с прекрасным настроением!",
+        "Невероятное разнообразие палитры цветов, если не решили какой хотите дизайн, мастер покажет множество классных, актуальных дизайнов, среди которых вы точно найдёте свой!",
+        ) 
+        // индекс текущей картинки
+        curImage = 0;
+        aLength = msg.length;
+        function showImage(direction)
+        {
+        //alert("ok");
+        
+        if (document.images)
+        {
+        curImage = curImage + direction;      
+        if (curImage < 0) {curImage = aLength - 1;}
+        if (curImage == aLength) {curImage = 0;}       
+        document.slideshow.src = "image/img3/p" + curImage + ".jpg";      
+        about.innerText = msg[curImage];
+        document.frm.description.value = msg1[curImage];
+        }        
+        }
+        </script>
+<img id='zag' src="image/zag.png">
+<img id='zag2' src="image/zag.png">
+<img id='zag3' src="image/zag.png">
+<img id='zag4' src="image/zag.png">
+<p id='hair' style="color:#FFFFFF; font-size:30px; font-family:Times New Roman";>Волосы</p>
+<p id='mas' style="color:#FFFFFF; font-size:30px; font-family:Times New Roman";>Массаж</p>
+<p id='nail' style="color:#FFFFFF; font-size:30px; font-family:Times New Roman";>Маникюр/Педикюр</p>
+<p id='brown' style="color:#FFFFFF; font-size:30px; font-family:Times New Roman";>Брови</p>
+<img id='add' src="image/add.png">	
+<hr id='line' size=200 color=#687a6f>
+
+<p class="prim">© 2022 Unison. Искандарова Анастасия</p>
+<form action="https://b62605.yclients.com/company/66405/menu?o="">
+<button id='strz' class="b1">
+Записаться</button> </form>
+<p class="N"><br>B<br>A<br>C<br>K</p>
+<p class="V"><br>N<br>E<br>X<br>T</p>
+</html>

@@ -1,0 +1,118 @@
+#main{
+padding-bottom: 407.5px;padding-left:5px;padding-right:26px;padding-top:5px;
+margin:15px;
+display: inline-block;
+transform: translate(-1.0em, -62.55em);
+color: rgba(0, 0, 0, 0.0); /*цвет текста*/
+border-color: rgba(0, 0, 0, 0.0); /*цвет рамки*/
+background: rgba(0, 0, 0, 0.3);
+}
+#main:hover {
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+#pule{
+padding-bottom: 407.5px;padding-left:5px;padding-right:26px;padding-top:5px;
+margin:15px;
+display: inline-block;
+transform: translate(127.0em, -62.55em);
+color: rgba(0, 0, 0, 0.0); /*цвет текста*/
+border-color: rgba(0, 0, 0, 0.0); /*цвет рамки*/
+background: rgba(0, 0, 0, 0.3);
+}
+#pule:hover {
+background-color: rgba(0, 0, 0, 0.4);
+}
+#om{
+display: inline-block;
+transform: translate(56.2em, -63.9em)
+}
+#str1{
+padding-bottom: 9px;padding-left:17px;padding-right:16px;padding-top:5px;
+margin:12px;
+display: inline-block;
+transform: translate(21.5em, -5.0em)
+}
+#str2{
+padding-bottom: 9px;padding-left:17px;padding-right:16px;padding-top:5px;
+margin:12px;
+display: inline-block;
+transform: translate(43.5em, -9.3em)
+}
+#str3{
+padding-bottom: 9px;padding-left:17px;padding-right:16px;padding-top:5px;
+margin:12px;
+display: inline-block;
+transform: translate(88.5em, -13.6em)
+}
+#str4{
+padding-bottom: 9px;padding-left:17px;padding-right:16px;padding-top:5px;
+margin:12px;
+display: inline-block;
+transform: translate(113.5em, -17.9em)
+}
+#str6{
+margin-left: 550px;
+transform: translate(55em, 0em)
+}
+#logoss{
+height:105px;
+transform: translate(23em, -27.23em)
+}
+#pich{
+height:170px;
+transform: translate(-0.3em, -20.7em)
+}
+#otz{
+height:630px;
+transform: translate(59.2em, -20.0em)
+}
+
+#line{
+transform: translate(0em, -49em)
+}
+#zag{
+height:55px;
+transform: translate(5.1em, -53.1em )
+}
+#zag2{
+height:55px;
+transform: translate(12.2em, -53.1em )
+}
+#zag3{
+height:55px;
+transform: translate(19.8em, -53.1em )
+}
+#zag4{
+height:55px;
+transform: translate(27em, -53.1em )
+}
+#hair{
+transform: translate(6.5em, -31.0em)
+}
+#mas{
+transform: translate(22.3em, -33.12em)
+}
+#nail{
+transform: translate(35.4em, -35.26em)
+}
+#brown{
+transform: translate(53.8em, -37.45em)
+}
+#line{
+transform: translate(0em, -70.45em)
+}
+#add{
+height:125.4px;
+transform: translate(0em, -70.1em)
+}
+#strz{
+padding-bottom: 9px;
+padding-left:17px;
+padding-right:16px;
+padding-top:5px;
+margin:12px;
+color: #e3e3e3;
+display: inline-block;
+transform: translate(66.5em, -178.68em)
+}
